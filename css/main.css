@@ -39,6 +39,64 @@ a{
     text-decoration: none;
 }
 
+#sync1 .item {
+    height: 100vh;
+    width:100%;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#sync1 .item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.owl-theme .owl-nav {
+    /*default owl-theme theme reset .disabled:hover links */
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    transition: all .3s ease;
+}
+
+.owl-theme .owl-nav [class*='owl-'].disabled:hover {
+    background-color: #D6D6D6;
+}
+
+#sync1.owl-theme {
+    position: relative;
+}
+
+#sync1.owl-theme .owl-next, #sync1.owl-theme .owl-prev {
+    width: 22px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+}
+
+#sync1.owl-theme .owl-prev {
+    left: 10px;
+}
+
+#sync1.owl-theme .owl-next {
+    right: 10px;
+}
+
+#sync1.owl-theme .owl-prev svg path, #sync1.owl-theme .owl-next svg path{
+    stroke: azure !important;
+}
+
+.ifrm{
+    border:none; 
+    width:100%;
+    margin-top:50px;
+}
+
 .btn{
     height: 4rem;
     width: 14rem;
@@ -54,6 +112,7 @@ a{
     letter-spacing: .2rem;
     opacity: .8;
 }
+
 .heading{
     padding-top: 7rem;
     width: 95%;
